@@ -1,0 +1,17 @@
+html:lang(en) .site-banner .inside .header-logo .header-logo-txt .brand::before {
+    content: "";
+    position: absolute;
+    background-image: url(../salon_du_fromage_2020_preprod_desktop/img/sfpl-logo-en-small.png);
+    width: 13.7rem;
+    height: 7.1rem;
+    left: 0;
+    top: -.3rem;
+    background-size: 100%;
+    cursor: pointer;
+}
+
+html:lang(en) .site-banner.is-stuck .header-logo .header-logo-txt .brand::before {
+    width: 9rem !important;
+    background-repeat: no-repeat;
+    background-position: center;
+}
