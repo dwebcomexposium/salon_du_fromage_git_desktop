@@ -1,7 +1,7 @@
 html:lang(en) .site-banner .inside .header-logo .header-logo-txt .brand::before {
     content: "";
     position: absolute;
-    background-image: url(../salon_du_fromage_2020_preprod_desktop/img/sfpl-logo-en-small.png);
+    background-image: url(../salon_du_fromage_git_desktop/img/sfpl-logo-en-small.png);
     width: 13.7rem;
     height: 7.1rem;
     left: 0;
