@@ -2484,7 +2484,7 @@ article.gla-item {
 	font-size: 1.2rem;
 	font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif;
 	color: #8C7971;
-	left: 16.9rem;
+	left: 24.9rem;
 }
 
 .site-banner .inside .lang-switcher {
@@ -2741,17 +2741,17 @@ article.gla-item {
 	position: absolute;
 }
 
-.site-banner .inside .block.quicklinks:first-child ul.ql-list .linkid728314:hover {
+.site-banner .inside .block.quicklinks:first-child ul.ql-list .linkid744276:hover {
 	-webkit-transform: none;
 	    -ms-transform: none;
 	        transform: none;
 }
 
-.site-banner .inside .block.quicklinks:first-child ul.ql-list .linkid728314 a {
+.site-banner .inside .block.quicklinks:first-child ul.ql-list .linkid744276 a {
 	position: relative;
 }
 
-.site-banner .inside .block.quicklinks:first-child ul.ql-list .linkid728314 a::before {
+.site-banner .inside .block.quicklinks:first-child ul.ql-list .linkid744276 a::before {
 	content: "Abonnez-vous à la newsletter";
 	position: absolute;
 	background: #8C7971;
