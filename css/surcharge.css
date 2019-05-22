@@ -2484,7 +2484,7 @@ article.gla-item {
 	font-size: 1.2rem;
 	font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif;
 	color: #8C7971;
-	left: 24.9rem;
+	left: 20rem;
 }
 
 .site-banner .inside .lang-switcher {
@@ -2635,7 +2635,7 @@ article.gla-item {
 	    -ms-flex-pack: center;
 	        justify-content: center;
 	padding: 1rem 0;
-	margin-left: 2rem;
+	margin-left: 1rem;
 	position: relative;
 	-webkit-transition: all .2s ease;
 	-o-transition: all .2s ease;
@@ -2761,7 +2761,7 @@ article.gla-item {
 	font-weight: 200;
 	white-space: nowrap;
 	padding: 2rem 1.7rem;
-	margin-left: 10rem;
+	margin-left: 11rem;
 }
 
 .site-banner .inside .block.quicklinks+.quicklinks {
