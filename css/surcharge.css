@@ -5321,9 +5321,9 @@ body:not(.content725839):not(.content108863) #main .article-wrapper .article-nav
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: center !important;
-	    -ms-flex-pack: center !important;
-	        justify-content: center !important;
+	-webkit-box-pack: left;
+	    -ms-flex-pack: left;
+	        justify-content: left;
 }
 
 .content108863 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p.txtcenter u,
