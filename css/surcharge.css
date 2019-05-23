@@ -5292,9 +5292,11 @@ body:not(.content725839):not(.content108863) #main .article-wrapper .article-nav
 .content108863 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(8),
 .content108863 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(9),
 .content108863 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(10),
+.content108863 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(11),
 .content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(8),
 .content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(9),
-.content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(10) {
+.content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(10),
+.content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(11) {
 	position: relative;
 	left: 2rem;
 	color: #8C7971;
@@ -5303,9 +5305,11 @@ body:not(.content725839):not(.content108863) #main .article-wrapper .article-nav
 .content108863 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(8)::before,
 .content108863 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(9)::before,
 .content108863 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(10)::before,
+.content108863 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(11)::before,
 .content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(8)::before,
 .content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(9)::before,
-.content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(10)::before {
+.content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(10)::before,
+.content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(11)::before {
 	content: '';
 	position: absolute;
 	background-image: url("../salon_du_fromage_2020_preprod_desktop/pictos/arrow-blue.svg");
@@ -5342,6 +5346,11 @@ body:not(.content725839):not(.content108863) #main .article-wrapper .article-nav
 	position: relative;
 	left: 2rem;
 	color: #8C7971;
+}
+
+.content108863 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p.txtleft:nth-child(1)::before,
+.content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p.txtleft:nth-child(1)::before {
+	background-image: none !important;
 }
 
 .content108863 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p.txtleft::before,
