@@ -1541,10 +1541,6 @@ a.cc-cookie-link:hover {
 	font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif;
 }
 
-.site-wrapper .layout-2-col .list-articles .inside .main-title-with-link h1 {
-	margin: 10rem 0 2rem !important;
-}
-
 @font-face {
 	font-family: 'cxpm-Klavika-bold';
 	src: url("../salon_du_fromage_2020_preprod_desktop/fonts/klavika/klavika-bold.otf");
@@ -2576,7 +2572,7 @@ article.gla-item {
 	position: absolute;
 	top: 74px;
 	left: -41.5rem;
-	padding: 1.5rem 6.2rem 1.6rem 1.5rem;
+	padding: 1.5rem 6.2rem 1.5rem 1.5rem;
 	font-size: 13px;
 	-webkit-transition: -webkit-transform .2s ease;
 	transition: -webkit-transform .2s ease;
@@ -2967,7 +2963,7 @@ article.gla-item {
 	transition: transform .2s ease, -webkit-transform .2s ease;
 	background: #64C2C8;
 	color: white;
-	padding: 1.9rem 6.2rem 1.9rem 1.9rem;
+	padding: 1.9rem 6.2rem 1.8rem 1.9rem;
 	line-height: 1rem;
 	text-transform: inherit;
 	font-size: 1.3rem;
