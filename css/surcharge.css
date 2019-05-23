@@ -5289,11 +5289,9 @@ body:not(.content725839):not(.content108863) #main .article-wrapper .article-nav
 	text-decoration: underline;
 }
 
-.content108863 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(8),
 .content108863 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(9),
 .content108863 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(10),
 .content108863 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(11),
-.content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(8),
 .content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(9),
 .content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(10),
 .content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(11) {
@@ -5302,11 +5300,9 @@ body:not(.content725839):not(.content108863) #main .article-wrapper .article-nav
 	color: #8C7971;
 }
 
-.content108863 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(8)::before,
 .content108863 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(9)::before,
 .content108863 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(10)::before,
 .content108863 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(11)::before,
-.content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(8)::before,
 .content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(9)::before,
 .content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(10)::before,
 .content725839 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p:nth-child(11)::before {
@@ -5325,9 +5321,9 @@ body:not(.content725839):not(.content108863) #main .article-wrapper .article-nav
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-pack: left;
-	    -ms-flex-pack: left;
-	        justify-content: left;
+	-webkit-box-pack: center !important;
+	    -ms-flex-pack: center !important;
+	        justify-content: center !important;
 }
 
 .content108863 .site-wrapper .layout-2-col .zone .article-wrapper .article-content p.txtcenter u,
