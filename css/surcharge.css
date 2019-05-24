@@ -745,7 +745,7 @@ i.icon-menu {
 }
 
 .global-wrapper main.cxp-history {
-	max-width: 1200px;
+	max-width: 100%;
 	margin: 0 auto;
 }
 
@@ -985,7 +985,7 @@ i.icon-menu {
 }
 
 .global-wrapper main.cxp-history .site-wrapper.wrapper .layout-2-col .zone .exhibitor-search-form .esf-results-zone .esf-results-alpha-filter .esf-results-filter-alpha ul li {
-	color: #f26c4a;
+	color: white;
 	font-size: 1.8rem;
 	font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif;
 }
