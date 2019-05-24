@@ -1550,6 +1550,11 @@ p {
 	margin-bottom: 2.5rem;
 }
 
+.site-wrapper.site-wrapper .mod-catal.catal-results+.catal-ex.mod-catal {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
 @font-face {
 	font-family: 'cxpm-Klavika-bold';
 	src: url("../salon_du_fromage_2020_preprod_desktop/fonts/klavika/klavika-bold.otf");
