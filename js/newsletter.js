@@ -1,4 +1,4 @@
-;function($, window, document) {
+;(function($, window, document) {
 	var $win             = $(window);
 	var $doc             = $(document);
 	var wrappedElements  = '.gla-item-title, .block.partner .link-view-all, .list-articles.slider .btn-primary, .nf-form-submit .btn-primary, .article_list .la-item .link-read-more, .article-wrapper h2, .article-wrapper h4, .focus1 a, .focus2 a';
@@ -39,10 +39,10 @@
 	 		}
 	 	});
 
-	 	if (window.location.href.indexOf('#newsletter') >= 0) {
-	 		$form.addClass('form-shown');
-	 	}
-	 }
+		 if (window.location.href.indexOf('#newsletter') >= 0) {
+			 $form.addClass('form-shown');
+		}
+	}
 
 	$win.on('load', function(){
 		$('#main').addClass('loaded');
@@ -50,6 +50,6 @@
 		var winST = $win.scrollTop();
 
 		// fixHeader(winST);
-		animateElement(winST);
+		animatedElements(winST);
 	});
-}(jQuery, window, document);
+})(jQuery, window, document);
