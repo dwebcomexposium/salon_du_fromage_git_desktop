@@ -49,7 +49,7 @@
 	}).on('load scroll', function(){
 		var winST = $win.scrollTop();
 
-		fixHeader(winST);
+		// fixHeader(winST);
 		animateElement(winST);
 	});
 }(jQuery, window, document);
