@@ -19,9 +19,9 @@
         // var wrappedElements  = '.gla-item-title, .block.partner .link-view-all, .list-articles.slider .btn-primary, .nf-form-submit .btn-primary, .article_list .la-item .link-read-more, .article-wrapper h2, .article-wrapper h4, .focus1 a, .focus2 a';
         // var animatedElements = '.la-list .la-item, .section, .section-promotions, .section-features, .social-sharing, .article-navigation, .cl-content';
       	
-		//$("a[href*='\\#newsletter']").click(function(){
-		//	$('.newsletter-form').toggleClass('form-shown')
-		//});
+		$("a[href*='\\#newsletter']").click(function(){
+			$('.newsletter-form').toggleClass('form-shown')
+		});
 		  
         // Newsletter
          if ($('.newsletter-form').length) {
