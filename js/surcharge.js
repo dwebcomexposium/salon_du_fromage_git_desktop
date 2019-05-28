@@ -71,7 +71,7 @@
        // }).on('load scroll', function(){
          // var winST = $win.scrollTop();
            //   });
-      }
+      //}
 
   }
   sfplJS.init();
