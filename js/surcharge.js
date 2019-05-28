@@ -24,18 +24,18 @@
 		//});
 		  
         // Newsletter
-         //if ($('.newsletter-form').length) {
-//           var $form = $('.newsletter-form');
-//      
-//           $form
-//             .detach()
-//             .appendTo('body');
-//           $form
-//             .find('.nf-form-input input')
-//             .attr('placeholder', 'Votre email');
-//           $form
-//             .find('.nf-main-content')
-//             .append('<a href="#" class="form-close"/>');
+         if ($('.newsletter-form').length) {
+           var $form = $('.newsletter-form');
+      
+           $form
+             .detach()
+             .appendTo('body');
+           $form
+             .find('.nf-form-input input')
+             .attr('placeholder', 'Votre email');
+           $form
+             .find('.nf-main-content')
+             .append('<a href="#" class="form-close"/>');
       
            //$('a[href*="#newsletter"]').click(function(b){
              //b.preventDefault();
@@ -43,35 +43,31 @@
              //$form.addClass('form-shown');
            //});
       
-           //$doc.click(function(e){
-//             var $target = $(e.target);
-//      
-//             if (($target.is('.form-close, .form-close *') || !$target.is('.nf-main-content, .nf-main-content *, [href*="#newsletter"], [href*="#newsletter"] *')) && $form.hasClass('form-shown')) {
-//               e.preventDefault();
-//      
-//               $form.removeClass('form-shown');
-//             }
-//      
-//             if (!$target.is('.lang-switcher, .lang-switcher * ')) {
-//               $('.lang-switcher').removeClass('is-visible');
-//             }
-//           });
-//      
-//           if (window.location.href.indexOf('#newsletter') >= 0) {
-//             $form.addClass('form-shown');
-//           }
+           $doc.click(function(e){
+             var $target = $(e.target);
+      
+             if (($target.is('.form-close, .form-close *') || !$target.is('.nf-main-content, .nf-main-content *, [href*="#newsletter"], [href*="#newsletter"] *')) && $form.hasClass('form-shown')) {
+               e.preventDefault();
+      
+               $form.removeClass('form-shown');
+             }
+      
+             if (!$target.is('.lang-switcher, .lang-switcher * ')) {
+               $('.lang-switcher').removeClass('is-visible');
+             }
+           });
+      
+           if (window.location.href.indexOf('#newsletter') >= 0) {
+             $form.addClass('form-shown');
+           }
          }
       
-		  
-		  
-		  
-		  
         //$win.load(function(){
           //$('#main').addClass('loaded');
        // }).on('load scroll', function(){
          // var winST = $win.scrollTop();
            //   });
-      //}
+      }
 
   }
   sfplJS.init();
