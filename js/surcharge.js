@@ -16,10 +16,13 @@
       showNewsletterForm : function() {
         var $win             = $(window);
         var $doc             = $(document);
-        var wrappedElements  = '.gla-item-title, .block.partner .link-view-all, .list-articles.slider .btn-primary, .nf-form-submit .btn-primary, .article_list .la-item .link-read-more, .article-wrapper h2, .article-wrapper h4, .focus1 a, .focus2 a';
-        var animatedElements = '.la-list .la-item, .section, .section-promotions, .section-features, .social-sharing, .article-navigation, .cl-content';
-      
-      
+        // var wrappedElements  = '.gla-item-title, .block.partner .link-view-all, .list-articles.slider .btn-primary, .nf-form-submit .btn-primary, .article_list .la-item .link-read-more, .article-wrapper h2, .article-wrapper h4, .focus1 a, .focus2 a';
+        // var animatedElements = '.la-list .la-item, .section, .section-promotions, .section-features, .social-sharing, .article-navigation, .cl-content';
+      	
+		//$("a[href*='\\#newsletter']").click(function(){
+		//	$('.newsletter-form').toggleClass('form-shown')
+		//});
+		  
         // Newsletter
          if ($('.newsletter-form').length) {
            var $form = $('.newsletter-form');
@@ -34,11 +37,11 @@
              .find('.nf-main-content')
              .append('<a href="#" class="form-close"/>');
       
-           $('[href*="#newsletter"]').click(function(e){
-             e.preventDefault();
+           //$('a[href*="#newsletter"]').click(function(b){
+             //b.preventDefault();
       
-             $form.addClass('form-shown');
-           });
+             //$form.addClass('form-shown');
+           //});
       
            $doc.click(function(e){
              var $target = $(e.target);
@@ -59,11 +62,11 @@
            }
          }
       
-        $win.load(function(){
-          $('#main').addClass('loaded');
-        }).on('load scroll', function(){
-          var winST = $win.scrollTop();
-              });
+        //$win.load(function(){
+          //$('#main').addClass('loaded');
+       // }).on('load scroll', function(){
+         // var winST = $win.scrollTop();
+           //   });
       }
 
   }
