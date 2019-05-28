@@ -34,13 +34,13 @@
              .find('.nf-main-content')
              .append('<a href="#" class="form-close"/>');
       
-           $('[href*="#newsletter"]').on('click', function(e){
+           $('[href*="#newsletter"]').click(function(e){
              e.preventDefault();
       
              $form.addClass('form-shown');
            });
       
-           $doc.on('click', function(e){
+           $doc.click(function(e){
              var $target = $(e.target);
       
              if (($target.is('.form-close, .form-close *') || !$target.is('.nf-main-content, .nf-main-content *, [href*="#newsletter"], [href*="#newsletter"] *')) && $form.hasClass('form-shown')) {
@@ -59,7 +59,7 @@
            }
          }
       
-        $win.on('load', function(){
+        $win.load(function(){
           $('#main').addClass('loaded');
         }).on('load scroll', function(){
           var winST = $win.scrollTop();
