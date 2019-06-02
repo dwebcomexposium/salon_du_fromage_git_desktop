@@ -1572,24 +1572,24 @@ p {
 	border-top: 4px solid #64C2C8 !important;
 }
 
-.content270675 .btn-primary:hover {
+.fiche.body-corpo .btn-primary:hover {
 	background-color: #8C7971 !important;
 	border-color: inherit !important;
 }
 
-.content270675 .catal-ed-activity-item a:hover {
+.fiche.body-corpo .catal-ed-activity-item a:hover {
 	color: #64C2C8 !important;
 }
 
-.content270675 .catal-ed-main-stand p i::before {
+.fiche.body-corpo .catal-ed-main-stand p i::before {
 	color: #8C7971 !important;
 }
 
-.content270675 .mod-catal .catal-ed-main .catal-ed-main-url a:hover {
+.fiche.body-corpo .mod-catal .catal-ed-main .catal-ed-main-url a:hover {
 	color: #64C2C8 !important;
 }
 
-.content270675 .catal-other-ex.mod-catal .catal-other-ex-list .catal-other-ex-item .catal-other-ex-link .catal-other-ex-actions a:hover {
+.fiche.body-corpo .catal-other-ex.mod-catal .catal-other-ex-list .catal-other-ex-item .catal-other-ex-link .catal-other-ex-actions a:hover {
 	border-color: #8C7971 !important;
 	background-color: #8C7971 !important;
 }
