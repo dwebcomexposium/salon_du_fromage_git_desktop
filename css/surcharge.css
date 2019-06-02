@@ -1573,8 +1573,12 @@ p {
 }
 
 .content330957 .btn-primary:hover {
-	background-color: inherit !important;
+	background-color: #8C7971 !important;
 	border-color: inherit !important;
+}
+
+.content330957 .catal-ed-activity-item a:hover {
+	color: #64C2C8 !important;
 }
 
 @font-face {
