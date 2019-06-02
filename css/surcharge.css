@@ -1581,6 +1581,14 @@ p {
 	color: #64C2C8 !important;
 }
 
+.content330957 .catal-ed-main-stand p i::before {
+	color: #8C7971 !important;
+}
+
+.content330957 .mod-catal .catal-ed-main .catal-ed-main-url a:hover {
+	color: #64C2C8 !important;
+}
+
 @font-face {
 	font-family: 'cxpm-Klavika-bold';
 	src: url("../salon_du_fromage_2020_preprod_desktop/fonts/klavika/klavika-bold.otf");
