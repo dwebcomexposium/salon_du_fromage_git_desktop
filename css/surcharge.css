@@ -1594,6 +1594,10 @@ p {
 	background-color: #8C7971 !important;
 }
 
+.catal-ex-item-title a {
+	color: #64C2C8 !important;
+}
+
 @font-face {
 	font-family: 'cxpm-Klavika-bold';
 	src: url("../salon_du_fromage_2020_preprod_desktop/fonts/klavika/klavika-bold.otf");
