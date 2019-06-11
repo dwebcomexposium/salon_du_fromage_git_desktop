@@ -15,3 +15,31 @@ html:lang(en) .site-banner.is-stuck .header-logo .header-logo-txt .brand::before
     background-repeat: no-repeat;
     background-position: center;
 }
+
+
+
+/************************/
+/** slider temoignages **/
+/************************/
+
+.temoignages-visiteurs i.icon.icon-short-arrow-left {
+    opacity: 1;
+    transform: rotate(180deg);
+    color: #64C2C8;
+    padding-top: 20px;
+}
+
+.temoignages-visiteurs i.icon.icon-short-arrow-right {
+    opacity: 1;
+    color: #64C2C8;
+    padding-top: 20px;
+    padding-left: 6em;
+}
+
+button.btn.btn-small.slider-btn-next, button.btn.btn-small.slider-btn-prev {
+    background: transparent !important;
+}
+
+.temoignages-visiteurs .slider-pagin-nb {
+    bottom: 2rem !important;
+}
