@@ -43,3 +43,6 @@ button.btn.btn-small.slider-btn-next, button.btn.btn-small.slider-btn-prev {
 .temoignages-visiteurs .slider-pagin-nb {
     bottom: 2rem !important;
 }
+
+/*Mises en avant catalogue*/
+.is-premium .catal-ex-item-title a {color : #fff!important; font-size : 30px; background: #8C7971; padding: 0 5px; line-height: 1.2; }
