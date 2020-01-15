@@ -11,6 +11,28 @@ html[lang="en"] .site-banner .inside .block .ql-list .linkid744269 .btn-primary 
    left: -35.5rem;
 }
 
+h1.main-title.la-main-title {
+   z-index: 99;
+}
+
+.block.block-page.breadcrumb-nav {
+   z-index: 99 !important;
+}
+
+.breadcrumb-nav+.list-articles::before {
+   background-image: url(../salon_du_fromage_2020_preprod_desktop/img/background-bandeau.jpg);
+   content: "";
+   display: block;
+   width: 100%;
+   position: absolute;
+   left: 0;
+   top: 0;
+   height: 20rem;
+   z-index: 1;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
 body {
    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif;
    -webkit-font-smoothing: antialiased;
@@ -5460,7 +5482,6 @@ body:not(.content725839):not(.content108863) #main .article-wrapper .article-nav
    -webkit-box-pack: center;
        -ms-flex-pack: center;
            justify-content: center;
-   background-image: url("../salon_du_fromage_2020_preprod_desktop/img/background-bandeau.jpg");
 }
 
 .layout-2-col .zone .block .inside .main-title-with-link h1 {
