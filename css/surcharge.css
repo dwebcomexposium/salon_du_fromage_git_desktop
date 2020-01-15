@@ -11,6 +11,10 @@ html[lang="en"] .site-banner .inside .block .ql-list .linkid744269 .btn-primary 
    left: -35.5rem;
 }
 
+h1.main-title.la-main-title {
+   z-index: 1 !important;
+}
+
 .breadcrumb-nav+.list-articles::before {
    background-image: url(../salon_du_fromage_2020_preprod_desktop/img/background-bandeau.jpg);
    content: "";
@@ -20,7 +24,7 @@ html[lang="en"] .site-banner .inside .block .ql-list .linkid744269 .btn-primary 
    left: 0;
    top: 0;
    height: 20rem;
-   z-index: 1;
+   z-index: 0;
    background-size: cover;
    background-repeat: no-repeat;
 }
