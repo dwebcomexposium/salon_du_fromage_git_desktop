@@ -6751,20 +6751,20 @@ div.sitemap .sm-list .sm-item-link:hover {
   color: #8C7971;
 }
 
-.exposant.fiche .global-wrapper main.cxp-history {
+.fiche .global-wrapper main.cxp-history {
   max-width: 100%;
 }
 
-.exposant.fiche .layout-2-col {
+.fiche .layout-2-col {
   max-width: 1200px;
   margin: 2rem auto;
 }
 
-.exposant.fiche .breadcrumb-nav {
+.fiche .breadcrumb-nav {
   display: none;
 }
 
-.exposant.fiche .breadcrumb-nav+div.mod-catal::before {
+.fiche .breadcrumb-nav+div.mod-catal::before {
   display: none;
 }
 
