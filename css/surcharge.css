@@ -15,20 +15,6 @@ h1.main-title.la-main-title {
    z-index: 1 !important;
 }
 
-.breadcrumb-nav+.list-articles::before {
-   background-image: url(../salon_du_fromage_2020_preprod_desktop/img/background-bandeau.jpg);
-   content: "";
-   display: block;
-   width: 100%;
-   position: absolute;
-   left: 0;
-   top: 0;
-   height: 20rem;
-   z-index: 0;
-   background-size: cover;
-   background-repeat: no-repeat;
-}
-
 body {
    font-family: "cxpm-Gudea-regular", Helvetica, Arial, sans-serif;
    -webkit-font-smoothing: antialiased;
