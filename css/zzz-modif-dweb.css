@@ -66,3 +66,9 @@ button.btn.btn-small.slider-btn-next, button.btn.btn-small.slider-btn-prev {
 #catalog-v2 .CatalogFilterBlock-categorylist {
     max-height: 300px !important;
 }
+
+/*cacher encart présent sur */
+ 
+#catalog-v2.catalog-scope div.container div.Container-inner section.CatalogAppointmentBar {
+    display: none !important;}
+ 
